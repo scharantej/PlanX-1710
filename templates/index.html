@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Smart Time</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Smart Time</h1>
+<p>Smart Time is a time management tool that helps you plan your day and stay on track.</p>
+<form action="/schedule" method="POST">
+<label for="tasks">Tasks:</label>
+<input type="text" name="tasks[]" id="tasks">
+<br>
+<label for="time_slots">Time Slots:</label>
+<input type="text" name="time_slots[]" id="time_slots">
+<br>
+<input type="submit" value="Generate Schedule">
+</form>
+</body>
+</html>
+
+
